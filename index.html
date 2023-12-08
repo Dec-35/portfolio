@@ -10,6 +10,8 @@
 
     <link rel="stylesheet" href="style.css" />
 
+    <link rel="stylesheet" href="timeline.css" />
+
     <link rel="icon" type="image/png" href="media/images/logoNeonD.png" />
 
     <meta name=" robots" content=" all" />
@@ -55,6 +57,15 @@
             href="#secondpart"
             onclick="changeMenuItem(id)"
             >Mes projets</a
+          >
+        </li>
+        <li>
+          <a
+            class="option"
+            id="competitionsLink"
+            href="#competitions"
+            onclick="changeMenuItem(id)"
+            >Competitions</a
           >
         </li>
 
@@ -122,7 +133,7 @@
             <h2>Etudiant</h2>
 
             <p>
-              Je m'appelle Mériadec Legal, j'ai 17 ans et je suis passioné de
+              Je m'appelle Mériadec Legal, j'ai 18 ans et je suis passioné de
               développement web. J'habite à Laval à proximité de l'IUT où
               j'étudie en 2ème année de <em>BUT Informatique</em>. Je suis
               currieux, motivé, dynamique et perfectionniste. J'aime apprendre
@@ -251,13 +262,13 @@
             avec <em>NodeJs</em> et <em>Express</em> pour le back-end et avec
             <em>eJs</em>, <em>CSS</em> et <em>JavaScript</em> pour le front-end.
             Il comporte un système de connexion et de gestion de compte
-            utilisateur, un système de gestion des évènements et des évenements,
-            une page pour l'emploi du temps des étudiants, un système de
-            paiement en ligne avec l'<em>API Paypal</em> et un pannel
-            d'administration pour gérer le site. Il est actuellement en cours de
-            développement sur la branche "dev" du repository <em>GitHub</em>.
-            Une API est également en développement pour lier un bot Discord et
-            un plugin Minecraft au site web.
+            utilisateur, un système de gestion des évènements, un système de
+            paiement en ligne avec l'<em>API Paypal</em> et l'<em
+              >API HelloAsso</em
+            >
+            ainsi qu'un pannel d'administration pour gérer le site. Il est
+            actuellement en cours de développement. Tous les endpoints du site
+            sont gérés dans l'API interne documentée sur <em>GitHub</em>.
           </p>
 
           <br /><a href="https://bdeinfo.fr" target="_blank">Y aller</a>
@@ -455,6 +466,73 @@
 
         <hr />
       </div>
+    </div>
+    <div class="main-container" id="competitions">
+      <div class="title-content">
+        <li>
+          <h1>Competitions</h1>
+        </li>
+      </div>
+      <ul class="timeline">
+        <!-- Item 1 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="flag">Nuit du code</span>
+              <span class="time-wrapper"
+                ><span class="time">Avril 2022</span></span
+              >
+            </div>
+            <div class="desc">
+              Une game Jam de 6h : développement d'un petit jeu en Python.
+            </div>
+          </div>
+        </li>
+
+        <!-- Item 2 -->
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="flag">Nuit de l'info</span>
+              <span class="time-wrapper"
+                ><span class="time">Décembre 2022</span></span
+              >
+            </div>
+            <div class="desc">
+              Compétition de développement web : sensibilisation aux MST.
+            </div>
+          </div>
+        </li>
+
+        <!-- Item 3 -->
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="flag">24H de l'info</span>
+              <span class="time-wrapper"
+                ><span class="time">Mai 2023</span></span
+              >
+            </div>
+            <div class="desc">
+              Challenges d'algorithmie, web et cybersécurité à Bourg-en-Bresse
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="flag">Nuit de l'info</span>
+              <span class="time-wrapper"
+                ><span class="time">Décembre 2023</span></span
+              >
+            </div>
+            <div class="desc">
+              Compétition de développement web : sensibilisation au
+              réchauffement climatique.
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>
 
     <div class="main-container" id="thirdpart">

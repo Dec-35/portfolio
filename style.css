@@ -254,6 +254,7 @@ hr {
   width: 100vw;
   height: 100vh;
   display: flex;
+  flex-direction: column;
 }
 
 @-webkit-keyframes typing {
@@ -1087,7 +1088,7 @@ em a:hover {
 
   #themechanger {
     height: min(5rem, 12vw);
-
+    margin-right: 3rem;
   }
 
   #menu-toggle {
