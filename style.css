@@ -1050,6 +1050,9 @@ em a:hover {
       #285aeb 90%);
 }
 
+#competitions {
+  height: fit-content;
+}
 
 
 @media only screen and (max-width: 1050px) {
@@ -1154,6 +1157,8 @@ em a:hover {
 
   .main-container .title-content {
     margin: 0.4em auto;
+    width: 90%;
+    left: 5% !important;
   }
 
   #thirdpart.appear #socials {
