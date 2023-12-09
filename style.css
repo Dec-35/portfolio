@@ -91,6 +91,7 @@ hr {
   border: none;
   font-family: var(--font-desc);
   opacity: 0.8;
+  cursor: pointer;
   font-size: 1.1em;
   z-index: 50;
   height: 41px;
@@ -328,7 +329,7 @@ hr {
 
 }
 
-.start-content .container .desc {
+.start-content .container .titleDesc {
   overflow: hidden;
   -webkit-animation: typing 3s steps(43, end);
   animation: typing 3s steps(43, end);
@@ -1054,6 +1055,9 @@ em a:hover {
   height: fit-content;
 }
 
+#menu-toggle {
+  cursor: pointer;
+}
 
 @media only screen and (max-width: 1050px) {
 
@@ -1108,7 +1112,7 @@ em a:hover {
     height: 100vh;
   }
 
-  .start-content .container .desc {
+  .start-content .container .titleDesc {
     max-width: 90vw;
     position: relative;
     -webkit-animation: typing 3s steps(43, end);
@@ -1117,7 +1121,7 @@ em a:hover {
     display: block;
   }
 
-  .start-content .container .desc p {
+  .start-content .container .titleDesc p {
 
     display: block;
   }
