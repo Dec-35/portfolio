@@ -306,6 +306,7 @@ hr {
   display: flex;
   justify-content: center;
   color: var(--font-color);
+  align-items: center;
 }
 
 .start-content .container {
